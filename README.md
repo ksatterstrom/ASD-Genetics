@@ -1,2 +1,2 @@
 # ASD-Genetics
-Code used in my work with autism exome sequence data
+Functions I wrote in my work with autism-related exome sequence data in Hail (https://hail.is)
