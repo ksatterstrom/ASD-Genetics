@@ -1,5 +1,4 @@
-# Do it with alternate rate files (these did not include OS variants; one was not depth filtered, the other was)
-
+# Read Hail output
 rates = read.table('ASD_bespoke_mutation_rates_draft_noOS_2024-07-30.txt',
                    header=T, sep='\t', stringsAsFactors = F) # 29,379
 rates$chrom = gsub('chr', '', rates$chrom)
